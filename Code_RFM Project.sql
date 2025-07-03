@@ -63,12 +63,7 @@ select  *, concat(R,F,M) as RFM_Score,
 from RFM_Segment;
 
 -------------------------
-select BCG_Maxtrix,count(BCG_Maxtrix)
-from drm_project.rfm
-group by BCG_Maxtrix 
 
-SELECT *
-FROM drm_project.customer_registered
 
 
 
